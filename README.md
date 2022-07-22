@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# smartmyhome_React
+리액트와 spring boot로 구축한 스마트 홈 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. 개요 
+### 1.1 프로젝트 목적
+ - 가정에서 사용할 수 있는 편의성을 제공하는 스마트 홈 
 
-## Available Scripts
+### 1.2 개발환경
+- 운영체제 : Windows10
+- Front-end : react, bootstrap, MUI, JavaScript
+- Back-end : JAVA 11, Spring Boot, JPA, Spring Security, ffmpeg
+- Database : MySQL
+- IDE : IntelliJ IDEA
+- Version Control : Git
+- IoT Embeded : ESP32 cam, ESP32, DHT-22 (온 습도 센서)
 
-In the project directory, you can run:
+#### 1.3 리액트 사용 라이브러리 
+- react-route-dom 
+- bootstrap 
+- react-apexcharts 
+- mui
+- react-live-clock
 
-### `npm start`
+## 2. 개발일정
+![image](https://user-images.githubusercontent.com/61840067/180309335-efdab964-8e5d-4685-9af1-1cb64305bf59.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 3. 전체 구조도
+![image](https://user-images.githubusercontent.com/61840067/180310306-d445ed8b-7047-4182-8f93-2fab80d3b7af.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 4. 주요 기능 
+- CCTV 관제 센터
+- Todo List (할 일 목록)
+- 초단기 실황 날씨, 외부 미세먼지 현황 
+- 주변 버스 정류장 실시간 버스 도착 정보
+- 온, 습도 시간별, 날짜 별, 실시간 차트 정보 
+- JWT를 활용한 로그인, 회원가입, 권한 제어
 
-### `npm test`
+## 5. 화면 구조도 
+![image](https://user-images.githubusercontent.com/61840067/180310507-dcfbceb4-d444-403b-b855-059b88ecfdce.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 6. DB 설계 
+![image](https://user-images.githubusercontent.com/61840067/180310549-81d4a8be-d45f-44be-b437-5aedb25fca0b.png)
 
-### `npm run build`
+## 7. 컨트롤러 설계 
+![image](https://user-images.githubusercontent.com/61840067/180310588-798d2262-540b-4c04-93e9-d66e6a57dc02.png)
+![image](https://user-images.githubusercontent.com/61840067/180310603-5534a2f1-c7ba-4210-8cb3-90648c7e63f7.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 8. 프론트 구현 
+![image](https://user-images.githubusercontent.com/61840067/180310711-2d6dcbc8-f9e5-451b-8b98-2006e818c88e.png)
+![image](https://user-images.githubusercontent.com/61840067/180310783-3e78a0cd-1347-4b07-95a9-c5b2ce77cff7.png)
+![image](https://user-images.githubusercontent.com/61840067/180310805-a3110ae0-219c-40d5-83a7-e2953755f00f.png)
+![image](https://user-images.githubusercontent.com/61840067/180310829-a8dbfc44-6ff5-4468-9037-083113d91698.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

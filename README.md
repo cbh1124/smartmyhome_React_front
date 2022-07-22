@@ -14,7 +14,7 @@
 - Version Control : Git
 - IoT Embeded : ESP32 cam, ESP32, DHT-22 (온 습도 센서)
 
-#### 1.3 리액트 사용 라이브러리 
+### 1.3 리액트 사용 라이브러리 
 - react-route-dom 
 - bootstrap 
 - react-apexcharts 

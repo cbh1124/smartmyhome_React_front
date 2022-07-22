@@ -1,0 +1,24 @@
+.mymap{
+    height: 37vh;
+}
+
+
+.logo1{
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    
+    /* identical to box height */
+    color: #000000;
+}
+
+.logo2{
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.2vw;
+    
+    /* identical to box height */
+    color: #00000042;
+}

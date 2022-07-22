@@ -1,0 +1,38 @@
+.dustfont{
+    font-family: 'SUIT-Medium';
+    font-style: bold;
+    font-size: 4.5vh;
+    vertical-align: bottom;
+    padding-top:7px;
+}
+
+.chodustfont{
+    font-family: 'SUIT-Medium';
+    font-style: bold;
+    font-size: 3.6vh;
+    vertical-align: bottom;
+    padding-top:7px;
+}
+
+.dustfont_s{
+    font-family: 'SUIT-Medium';
+    font-style: bold;
+    font-size: 3.8vh;
+    padding-top:10px;
+    color: #9E9E9E;
+}
+
+.dustfont_m{
+    font-family: 'SUIT-Medium';
+    font-style: bold;
+    vertical-align: sub;
+    font-size: 5vh;
+    
+}
+
+/* *{
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0.1px;
+} 
+   */

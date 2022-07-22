@@ -1,0 +1,25 @@
+.img-icon{
+  width : 2.677376171352075vw;
+  height : 3.7243947858473vh;
+  /* border-color: red;
+  border-style: solid;
+  border-width: 0.1px; */
+}
+
+.test{
+    text-align: center;
+    /* border-color: rgb(29, 27, 27);
+    border-style: solid;
+    border-width: 0.1px; */
+}
+
+.bold{
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  /* font-size: 1vw;
+  line-height: 1.5vw; */
+  /* identical to box height */
+  color: #000000;
+}

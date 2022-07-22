@@ -1,0 +1,115 @@
+.times{
+  text-align: center;
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.0rem;
+  /* font-size: 1vw;
+  line-height: 1.5vw; */
+  /* identical to box height */
+  color: #000000;
+}
+
+.times2{
+  text-align: center;
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 0.6rem;
+  /* font-size: 1vw;
+  line-height: 1.5vw; */
+  /* identical to box height */
+  color: #000000;
+}
+
+.App {
+  text-align: center;
+}
+
+.contain{
+  border-style:solid;
+  border-color: black;
+  border-radius: 30px;
+}
+
+.test{
+  /* border-style :solid;
+  border-color: black; */
+  
+  text-align: center;
+  
+}
+
+.iotfont{
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 1vw;
+    line-height: 1.5vw; */
+    /* identical to box height */
+    color: #000000;
+}
+
+.reportfont{
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: bold;
+  /* font-size: 1vw;
+  line-height: 1.5vw; */
+  /* identical to box height */
+  color: #000000;
+}
+
+.img1{
+  width : 30px;
+  height : 30px;
+}
+
+.clock{
+  width : 80px;
+  height : 30px;
+}
+
+/* .exfont{
+  font-family: 'SUIT-Medium';
+  font-style: normal;
+  font-weight: bold;
+} */
+/* *{
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0.1px;
+}  */
+
+.t{
+  border-color: red;
+  border-style: solid;
+  border-width: 0.1px;
+}
+
+.applayout2{
+  height: 53vh;
+  /* border-color: #000000;
+  border-style: solid; */
+}
+
+.applayout3{
+  height: 20vh;
+}
+
+@font-face {
+  font-family: 'SUIT-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.size{
+  max-width: 1000px;
+  max-height: 100px;
+}
+
+.bshadow{
+  border-bottom: solid;
+  border-color: #000000;
+}

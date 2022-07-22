@@ -1,0 +1,42 @@
+.notice {
+    padding: 0 0 0 11px;
+    height: 25.45px;
+    overflow: hidden;
+    margin : 0;
+}
+
+.notice_content {
+    height: 30px;
+    padding: 20px 0;
+    line-height: 30px;
+    list-style-type:none;
+} 
+
+
+.notice_header{
+    list-style-type:none;
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-style: bold;
+    font-size: 15px;
+    justify-content: end;
+}
+
+.notice_title{
+    list-style-type:none;
+    font-family: 'SUIT-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    
+}
+
+
+
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -1,0 +1,25 @@
+.roomimg{
+    width : 2.35475234270415vw;
+    height :  4.4487895716946vh;
+}
+
+.cardstyle{
+    margin-bottom: 0;
+    line-height: 100%;
+    font-family: 'SUIT-Medium';
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 0.8vw;
+    
+}
+
+
+
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
